@@ -1,0 +1,15 @@
+{
+    "total_signals": 0,
+    "winning_signals": 0,
+    "losing_signals": 0,
+    "win_rate": 0.0,
+    "total_profit": 0.0,
+    "total_loss": 0.0,
+    "net_profit": 0.0,
+    "average_winner": 0.0,
+    "average_loser": 0.0,
+    "largest_winner": 0.0,
+    "largest_loser": 0.0,
+    "profit_factor": 0.0,
+    "last_updated": "2025-07-17T16:51:32.651559"
+}

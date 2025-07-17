@@ -1,0 +1,40 @@
+{
+    "bot": {
+        "name": "XAUUSD Forex Trading Bot",
+        "version": "1.0.0",
+        "update_interval": 300,
+        "max_signals_per_day": 10
+    },
+    "trading": {
+        "symbols": ["XAUUSD", "EURUSD", "GBPUSD"],
+        "timeframes": ["1H", "4H", "Daily"],
+        "min_confidence": 60,
+        "max_daily_signals": 5
+    },
+    "rsi": {
+        "period": 14,
+        "overbought": 70,
+        "oversold": 30
+    },
+    "fibonacci": {
+        "primary_level": 0.618,
+        "secondary_levels": [0.236, 0.382, 0.5, 0.786],
+        "proximity_threshold": 20
+    },
+    "risk_management": {
+        "default_risk_percent": 2,
+        "max_risk_percent": 5,
+        "min_risk_reward": 1.5,
+        "max_position_size": 10
+    },
+    "alerts": {
+        "send_notifications": true,
+        "notification_types": ["signal", "error", "status"],
+        "max_alerts_per_hour": 10
+    },
+    "data": {
+        "api_timeout": 30,
+        "retry_attempts": 3,
+        "rate_limit_delay": 12
+    }
+}
